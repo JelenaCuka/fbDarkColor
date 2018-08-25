@@ -1,0 +1,71 @@
+#facebook.activePG body{
+    background-color: #000000 !important;
+    /*color: #ffffff;*/
+}
+/*side nav naslovna*/
+#facebook.activePG #sideNav,#facebook.activePG #leftCol,#facebook.activePG #entity_sidebar{
+    color: #e5e5e5 !important;
+}
+#facebook.activePG #sideNav a,#facebook.activePG #leftCol a,#facebook.activePG #entity_sidebar a{
+    color: #e5e5e5 !important;
+}
+#facebook.activePG #sideNav a:hover,#facebook.activePG #leftCol a:hover,#facebook.activePG #entity_sidebar a:hover {
+    color: #191919 !important;
+}
+/*bluebar #js_i??*/
+#facebook.activePG #bluebarRoot div{
+    background-color: #4c4c4c !important;
+    color: #ffffff;
+}
+/*containeri*/
+#facebook.activePG #globalcontainer,#facebook.activePG #maincontainer{
+    background-color: #000000 !important;
+}
+/*sadrzaj naslovna containeri*/
+#facebook.activePG #leftCol{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+#facebook.activePG #contentCol{
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+#facebook.activePG #rightCol{
+    background-color: #000000 !important;
+    color: #ffffff;
+}
+/*Profil Friends i scroll*/
+/*color: #ffffff !important;
+[id^="u_fetchstream"]{
+    background-color: #191919 !important;
+    color:  #666666 !important;
+}
+*/
+#facebook.activePG [id^="u_ps"]{
+    background-color: #191919 !important;
+    color:  #666666 !important;
+}
+#facebook.activePG [class*="fbTimelineCapsule"]{
+    background-color: #191919 !important;
+    color:  #666666 !important;
+}
+/*profil-desno??*/
+#facebook.activePG #recent_capsule_container{
+    background-color: #191919 !important;
+}
+/*pocetak naslovna*/
+#facebook.activePG [class*="userContentWrapper"]{
+    background-color: #191919 !important;
+    color: #ffffff !important;
+}
+/*chat*/
+#facebook.activePG [class*="fbChatSidebar"]{
+    background-color: #191919 !important;
+    color: #ffffff !important;
+}
+#facebook.activePG [class*="fbChatSidebar"] a{
+    color: #e5e5e5 !important;
+}
+#facebook.activePG [class*="fbChatSidebar"] a:hover{
+    color: #191919 !important;
+}

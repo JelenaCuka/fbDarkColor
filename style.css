@@ -1,0 +1,52 @@
+/*Some basic style for popup window*/
+html,body{
+    background-color: #323232 !important;
+    color: #e5e5e5 !important;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-width: 260px;
+}
+h2{
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+}
+p{
+    padding: 5px;
+    max-width: 100%;
+    text-align: center;
+}
+.labelClass{
+    font-weight: bold;
+    border-top: #f5f6f5 1.5px solid;
+    padding: 2px;
+    text-align: center;
+}
+input:not([type=radio]){
+    box-sizing: border-box;
+    width: 100%;
+}
+.inputClass{
+    border-top: #f5f6f5 1.5px solid;
+    border-radius: 25px;
+    color: #f5f6f5;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+.inputBotun{
+    background-color: rgba(255, 255, 255, 230);
+    color: #000000;
+}
+.inputBotun:hover{
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e0e0e0;
+}
